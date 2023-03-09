@@ -1,0 +1,130 @@
+@font-face {
+    font-family: timer;
+    src: url('../fonts/timer.ttf') format('truetype');
+}
+
+.btn {
+    position: absolute;
+    top: 120px;
+    background-color: #1c201e;
+    font-size: 75px;
+    padding: 0px 30px 0px 30px;
+    
+}
+
+
+.btn:hover {
+    background-color: #7d7f7e;
+    
+}
+
+.btn_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body{
+    margin: 0;
+    top: 0;
+    background: #1c201e;
+}
+
+
+.timer span {
+    font-family: timer;
+    position: absolute;
+    color: #c40a0a;
+    font-size: 27px;
+    left: 180px;
+    user-select: none;
+    top: 55px;
+    background-color: #000000;
+}
+
+.timer input {
+    display: block;
+    position: absolute;
+    top: 185px;
+    width: 200px;
+    left: 160px;
+}
+
+.timer .correct {
+    color: #0b7606;
+}
+
+.timer .incorrect {
+    color: #000000;
+}
+
+.timer button {
+    user-select: none;
+    position: absolute;
+    top: 105px;
+    font-size: larger;
+    background-color: #8e8e8e;
+    border: none;
+    height: 35px;
+    width: 90px;
+    left: 290px;
+}
+
+
+.timer button:hover {
+    background-color: #4f4f4f;
+}
+
+
+.timer .bomb {
+    user-select: none;
+    -webkit-user-drag: none;
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    top: -100px;
+    left: -20px;
+}
+
+.timer .explosion {
+    user-select: none;
+    -webkit-user-drag: none;
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top: -400px;
+    left: -250px;
+}
+
+.lose {
+    opacity: 0;
+} 
+
+
+.timer {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.timer1 {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+
+.timer2 {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+
+.timer3 {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+}
+
